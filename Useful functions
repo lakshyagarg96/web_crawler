@@ -1,0 +1,17 @@
+# List functions
+p.append() #Mutation
+<value> in <list>
+p.index(100) # Returns the location of the number 100 in the list
+p.index('Hey')
+for i in p: # Goes through all elements of a list
+# Important strings are nonmutable while lists are mutable
+
+# Union of 2 lists 
+
+def union(p,q):
+    for i in q:
+        if i not in p:
+            p.append(i)
+            
+    return p
+ 
